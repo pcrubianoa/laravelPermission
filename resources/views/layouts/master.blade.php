@@ -166,35 +166,56 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="./img/dashboard.png" alt="User Image" width="20">
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fa fa-dashboard"></i>
+              <img src="./img/management.png" alt="User Image" width="20">
               <p>
-                Starter Pages
+                User Management
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link active">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Active Page</p>
+                  <img src="./img/permissions.png" alt="User Image" width="20">
+                  <p>Permissions</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <img src="./img/roles.png" alt="User Image" width="20">
+                  <p>Roles</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img src="./img/users.png" alt="User Image" width="20">
+                  <p>Users</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-th"></i>
+              <img src="./img/password.png" alt="User Image" width="20">
               <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
+                Change Password
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <img src="./img/logout.png" alt="User Image" width="20">
+              <p>
+                Logout
               </p>
             </a>
           </li>
